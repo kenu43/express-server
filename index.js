@@ -20,7 +20,6 @@ app.get('/about', (req, res) => {
   res.send('About page');
 });
 
-// Definir el puerto en el que el servidor escuchará las solicitudes
 const PORT = process.env.PORT || 3000;
 
 // Iniciar el servidor y escuchar en el puerto especificado
